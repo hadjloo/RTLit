@@ -6,7 +6,7 @@ RTLit is a set of mixins which let you make any CSS Framework RTL. Using predefi
 
 ## 1.0
 
-Ask your question on twitter via [@_RTL_it](http://twitter.com/_RTL_it)
+Ask your question on twitter via [@ _RTL_it](http://twitter.com/_RTL_it)
 
 # Team
 
@@ -14,6 +14,9 @@ Ask your question on twitter via [@_RTL_it](http://twitter.com/_RTL_it)
 Project owner.
 [nasser@hadjloo.ir](mailto:nasser@hadjloo.ir)
 
+#Documentation
+
+Documentation will be available in coming weeks, in RTLit website
 # Pull requests
 
 Please create pull requests for develop branch.
