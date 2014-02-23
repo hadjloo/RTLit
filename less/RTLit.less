@@ -208,3 +208,35 @@ body{
 .BorderRight(@value) when (@direction = @rtl) {
     border-left: @value;
 }
+
+.BorderLeftWidth(@value) when (@direction = @ltr) {
+    border-left-width: @value;
+}
+
+.BorderLeftWidth(@value) when (@direction = @rtl) {
+    border-right-width: @value;
+}
+
+.BorderRightWidth(@value) when (@direction = @ltr) {
+    border-right-width: @value;
+}
+
+.BorderRightWidth(@value) when (@direction = @rtl) {
+    border-left-width: @value;
+}
+
+.BorderLeftColor(@value) when (@direction = @ltr) {
+    border-left-color: @value;
+}
+
+.BorderLeftColor(@value) when (@direction = @rtl) {
+    border-right-color: @value;
+}
+
+.BorderRightColor(@value) when (@direction = @ltr) {
+    border-right-color: @value;
+}
+
+.BorderRightColor(@value) when (@direction = @rtl) {
+    border-left-color: @value;
+}
