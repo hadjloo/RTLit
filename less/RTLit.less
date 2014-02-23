@@ -25,6 +25,10 @@ body{
     float: left;
 }
 
+.FloatItem(@value) when (@value = "none"){
+    float: none;
+}
+
 .TextAlignTo(@value) when (@value = "left") and (@direction = @ltr){
     text-align: left;
 }
