@@ -192,3 +192,19 @@ body{
 .Border-width(@top, @right, @bottom, @left) when (@direction = @rtl) {
     border-width: @top @left @bottom @right; 
 }
+
+.BorderLeft(@value) when (@direction = @ltr) {
+    border-left: @value;
+}
+
+.BorderLeft(@value) when (@direction = @rtl) {
+    border-right: @value;
+}
+
+.BorderRight(@value) when (@direction = @ltr) {
+    border-right: @value;
+}
+
+.BorderRight(@value) when (@direction = @rtl) {
+    border-left: @value;
+}
