@@ -125,19 +125,19 @@ body{
     border-left: @borderSize @borderColor @bordertype;
 }
 
-.BorderLeftOrRightColor(@value) when (@command = "border-left-color") and (@direction = @ltr) {
+.BorderLeftOrRightColor(@command, @value) when (@command = "border-left-color") and (@direction = @ltr) {
     border-left-color: @value;
 }
 
-.BorderLeftOrRightColor(@value) when (@command = "border-left-color") and (@direction = @rtl) {
+.BorderLeftOrRightColor(@command, @value) when (@command = "border-left-color") and (@direction = @rtl) {
     border-right-color: @value;
 }
 
-.BorderLeftOrRightColor(@value) when (@command = "border-right-color") and (@direction = @ltr) {
+.BorderLeftOrRightColor(@command, @value) when (@command = "border-right-color") and (@direction = @ltr) {
     border-right-color: @value;
 }
 
-.BorderLeftOrRightColor(@value) when (@command = "border-right-color") and (@direction = @rtl) {
+.BorderLeftOrRightColor(@command, @value) when (@command = "border-right-color") and (@direction = @rtl) {
     border-left-color: @value;
 }
 
