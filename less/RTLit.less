@@ -244,3 +244,14 @@ body{
 .BorderRightColor(@value) when (@direction = @rtl) {
     border-left-color: @value;
 }
+.BorderRadius(@topRadius, @rightRadius, @bottomRadius, @leftRadius) when (@direction = @ltr){
+    -webkit-border-radius: @topRadius @rightRadius @bottomRadius @leftRadius;
+    -moz-border-radius: @topRadius @rightRadius @bottomRadius @leftRadius;
+    border-radius: @topRadius @rightRadius @bottomRadius @leftRadius;
+}
+
+.BorderRadius(@topRadius, @rightRadius, @bottomRadius, @leftRadius) when (@direction = @rtl){
+    -webkit-border-radius: @topRadius @leftRadius @bottomRadius @rightRadius;
+    -moz-border-radius: @topRadius @leftRadius @bottomRadius @rightRadius;
+    border-radius: @topRadius @leftRadius @bottomRadius @rightRadius;
+}
