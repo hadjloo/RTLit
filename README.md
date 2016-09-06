@@ -2,9 +2,9 @@
 
 RTLit is a set of mixins which let you make any CSS Framework RTL. Using predefined bidirectional mixins you will be able to replace simple css commands with a mixin which can detect the direction and generate bidirectional commands.
 
-# Current Version
+# Current Version - 3.0
+### 3.0 => Stylus lang support
 
-## 3.0
 
 Old versions
 ### 2.0 => SCSS support
